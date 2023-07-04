@@ -1,0 +1,14 @@
+{
+    "Register" : "DAFTAR",
+    "Login" : "MASUK",
+    "Reset Password Notification" : "Notifikasi Reset Password",
+    "You are receiving this email because we received a password reset request for your account." : "Kamu menerima email ini karena ada request mengganti password",
+    "Before proceeding, please check your email for a verification link." : "Sebelum melanjutkan, cek email kamu untuk menerima link verifikasi",
+    "If you did not receive the email" : "Jika kamu tidak menerima emailnya",
+    "Verify Your Email Address" : "Verifikasi Alamat Email Kamu",
+    "click here to request another" : "klik disini untuk request kembali",
+    "Verify Email Address" : "Verifikasi Alamat Email",
+    "Please click the button below to verify your email address." : "Klik tombol di bawah untuk verifikasi alamat email kamu",
+    "You are logged in!" : "Kamu sudah login!",
+    "This password reset link will expire in 60 minutes." : "Link reset password akan kadaluarsa dalam 60 menit"
+}   
