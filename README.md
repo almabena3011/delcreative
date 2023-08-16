@@ -1,67 +1,57 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## About Del Creative
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Del Creative is my campus group project with purpose to open forum and discussion between students to share any knowledge or course. There are  several features that we built in this project:
 
-## About Laravel
+-   Register, Login & Logout.
+-   CRUD Forum.
+-   Make a comment,.
+-   Upvote/Downvote a comment.
+-   Report a comment.
+-   Point Conversion
+-   Leaderboard
+-   Lab Code
+-   etc
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
--   [Simple, fast routing engine](https://laravel.com/docs/routing).
--   [Powerful dependency injection container](https://laravel.com/docs/container).
--   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
--   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
--   Database agnostic [schema migrations](https://laravel.com/docs/migrations).
--   [Robust background job processing](https://laravel.com/docs/queues).
--   [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+In this project, i have role as backend engineer. Another friends also have role as backend engineer and frontend engineer. 
+Some features was  built by me, such as upvote/downvote a comment, point conversion, leaderboard and password reset. i also help another engineer to fix the validation in registration form.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## How To Run The Project
 
-## Learning Laravel
+## 1. Install Composer, XAMPP/Laragon & PHP
+This project will running if you have both of these application and languange to run the <b>apache server</b> and <b>sql server</b>. Then, to run the project and install the needs of project dependencies, you should install <b>composer</b>.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+You can install them from this website: 
+1. Composer - <https://getcomposer.org/>
+2. XAMPP with PHP - <https://www.apachefriends.org/index.html>
+3. or Laragon - <https://laragon.org/download/>
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+## 2. Clone the project
+You can clone this project with command "git clone" using this github project link into your computer folder.
+`git clone https://github.com/almabena3011/delcreative.git`
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 3. Run Composer Install to get all project dependencies
+Run `composer install` command using cmd inside the project folder to get all dependecies that needed by the project.
 
-### Premium Partners
+## 4. Import the database
+- Open phpmyadmin in your browser
+- login the phpmyadmin with "root" as username without password if using Windows
+- import the delcreative.sql to the phpmyadmin
+- then create `.env` file inside the project, after that copy paste all the content inside `.env.example` file.
 
--   **[Vehikl](https://vehikl.com/)**
--   **[Tighten Co.](https://tighten.co)**
--   **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
--   **[64 Robots](https://64robots.com)**
--   **[Cubet Techno Labs](https://cubettech.com)**
--   **[Cyber-Duck](https://cyber-duck.co.uk)**
--   **[Many](https://www.many.co.uk)**
--   **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
--   **[DevSquad](https://devsquad.com)**
--   **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
--   **[OP.GG](https://op.gg)**
--   **[CMS Max](https://www.cmsmax.com/)**
--   **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
--   **[Lendio](https://lendio.com)**
+## 4. Run the project
+Run `php artisan serve` command to run the project and put the local link to the browser. Finally, you can run this project.
+You can login as the admin and mahasiswa from the available account that provided in the database.
 
-## Contributing
+1. Admin (username: admin; password: password)
+2. Mahasiswa (username: mahasiswa1, password: password)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+You can also make another account to explore this project. 
+Note: _all the new acount must be checked by admin account to verify the account to use the app._
 
-## Code of Conduct
+This Project Bulit by Team 2 IF 2019 Institut Teknologi Del.
+Thanks to my team.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-Nambahin buat cek.
